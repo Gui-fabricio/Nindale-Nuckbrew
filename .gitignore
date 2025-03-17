@@ -1,0 +1,21 @@
+Dependências
+node_modules/
+
+Diretórios de build/compilação
+build/
+dist/
+bin/
+out/
+
+Arquivos temporários e logs
+*.log
+*.tmp
+*.lock
+
+Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+Configurações do VS Code ou IDE
+.vscode/
+.idea/
