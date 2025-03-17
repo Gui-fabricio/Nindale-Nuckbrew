@@ -1,0 +1,25 @@
+{
+    "_meta": {
+      "sources": [
+        {
+          "json": "Nindale",
+          "full": "Nindäle Homebrew – Adaptação da Nuckbrew",
+          "abbreviation": "NH",
+          "color": "123456",
+          "authors": [
+            "Nuckturp Studios"
+          ],
+          "convertedBy": [
+            "Guilherme Fabricio"
+          ],
+          "version": "1.0",
+          "url": "https://exemplo.com", 
+          "status": "wip",
+          "edition": "5e"
+        }
+      ],
+      "dateAdded": 1700000000,
+      "dateLastModified": 1700000000
+    }
+  }
+  
