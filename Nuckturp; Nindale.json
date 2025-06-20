@@ -5,7 +5,7 @@
 				"json": "Nindale",
 				"abbreviation": "NIN",
 				"full": "Nuckturp; Nindäle",
-				"url": "https://www.dandwiki.com/wiki/Warpriest_(5e_Class)",
+				"url": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/tree/main",
 				"authors": [
 					"Nuckturp Studios"
 				],
@@ -324,23 +324,23 @@
 					}
 				],
 				"legendary": {
-					"actions": [
-					{
-						"name": "Wind and Rain Burst",
-						"entries": ["The Tempestária uses Wind and Rain Burst."]
-					},
-					{
-						"name": "Electric Discharge",
-						"entries": ["The Tempestária uses Electric Discharge."]
-					},
-					{
-						"name": "Dodge",
-						"entries": ["The Tempestária takes the Dodge action."]
-					}
-					],
 					"name": "Legendary Actions",
 					"entries": [
-					"The Tempestária can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature’s turn. The Tempestária regains spent legendary actions at the start of its turn."
+						"The Tempestária can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature’s turn. The Tempestária regains spent legendary actions at the start of its turn."
+					],
+					"actions": [
+						{
+						"name": "Wind and Rain Burst",
+						"entries": ["The Tempestária uses Wind and Rain Burst."]
+						},
+						{
+						"name": "Electric Discharge",
+						"entries": ["The Tempestária uses Electric Discharge."]
+						},
+						{
+						"name": "Dodge",
+						"entries": ["The Tempestária takes the Dodge action."]
+						}
 					]
 				},
 				"environment": ["mountain", "arctic", "coastal"],
