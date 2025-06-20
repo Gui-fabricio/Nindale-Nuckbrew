@@ -4,7 +4,7 @@
 			{
 				"json": "Nindale",
 				"abbreviation": "NIN",
-				"full": "Nindäle Homebrew",
+				"full": "Nuckturp; Nindäle",
 				"url": "https://www.dandwiki.com/wiki/Warpriest_(5e_Class)",
 				"authors": [
 					"Nuckturp Studios"
@@ -207,6 +207,144 @@
 				],
 				"environment": ["arctic", "mountain"],
 				"tokenUrl": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/blob/main/Image/Nev'uto%20-%20Aventureiros%20de%20Nind%C3%A4le.png?raw=true"
+			},
+			{
+				"name": "Tempestária",
+				"source": "NIN",
+				"size": ["G"],
+				"type": "elemental",
+				"alignment": ["C", "N"],
+				"ac": [
+					{
+					"ac": 18,
+					"from": ["natural armor"]
+					}
+				],
+				"hp": {
+					"average": 240,
+					"formula": "15d20 + 75"
+				},
+				"speed": {
+					"fly": 90
+				},
+				"str": 10,
+				"dex": 18,
+				"con": 20,
+				"int": 8,
+				"wis": 18,
+				"cha": 14,
+				"save": {
+					"con": "+9",
+					"wis": "+8"
+				},
+				"skill": {
+					"perception": "+8",
+					"survival": "+9"
+				},
+				"resist": [
+					"bludgeoning from nonmagical attacks",
+					"piercing from nonmagical attacks",
+					"slashing from nonmagical attacks"
+				],
+				"immune": [
+					"thunder",
+					"psychic"
+				],
+				"conditionImmune": [
+					"grappled",
+					"prone",
+					"exhaustion",
+					"paralyzed",
+					"petrified",
+					"poisoned",
+					"restrained",
+					"stunned",
+					"unconscious",
+					"charmed"
+				],
+				"senses": ["darkvision 120 ft.", "passive Perception 18"],
+				"languages": ["—"],
+				"cr": "16",
+				"xp": 15000,
+				"proficiency": 5,
+				"trait": [
+					{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The Tempestária can move through objects and creatures as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+					]
+					},
+					{
+					"name": "Disruptive Field",
+					"entries": [
+						"The Tempestária has advantage on saving throws against spells and other magical effects."
+					]
+					},
+					{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the Tempestária fails a saving throw, it can choose to succeed instead."
+					]
+					}
+				],
+				"action": [
+					{
+					"name": "Wind and Rain Burst",
+					"entries": [
+						"The Tempestária releases a burst of wind or rain (its choice) affecting an area within 60 ft. radius. Each creature in that area must succeed on a DC 18 Strength saving throw or take 44 (12d6 + 8) bludgeoning damage and be pushed 20 feet away, or half as much damage on a successful save."
+					]
+					},
+					{
+					"name": "Electric Discharge",
+					"entries": [
+						"The Tempestária releases a bolt of lightning at one target it can see. The target must make a DC 18 Dexterity saving throw, taking 80 (16d10) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+					},
+					{
+					"name": "Climate Control (1/day)",
+					"entries": [
+						"The Tempestária alters the climate within a 3 km radius for up to 24 hours. It chooses one of the following effects:",
+						"**Acid Rain.** Creatures in the area take 10 (2d6 + 4) bludgeoning damage per round due to wind and an additional 2d6 acid damage.",
+						"**Freezing Blizzard.** Creatures take 10 (2d6 + 4) cold damage per round. Flying creatures must succeed on a DC 18 Dexterity saving throw or fall prone (if possible) and take falling damage.",
+						"**Gigantic Hailstorm.** Creatures take 16 (4d6 + 4) bludgeoning damage per round. Flying creatures must succeed on a DC 18 Dexterity saving throw or fall prone (if possible).",
+						"**Cataclysmic Thunderstorm.** Creatures take 24 (4d10 + 4) lightning damage per round due to extreme lightning strikes."
+					]
+					},
+					{
+					"name": "Summon Air Elementals (Recharge 5-6)",
+					"entries": [
+						"The Tempestária summons 1d4 air elementals in unoccupied spaces within 60 ft. of it. The elementals act on the Tempestária’s initiative. They disappear after 1 hour or when the Tempestária dies."
+					]
+					},
+					{
+					"name": "Storm Surge",
+					"entries": [
+						"The Tempestária enters a surge of storm energy, increasing its fly speed to 120 ft. and allowing it to use Electric Discharge as a bonus action for 1 minute (10 rounds)."
+					]
+					}
+				],
+				"legendary": {
+					"actions": [
+					{
+						"name": "Wind and Rain Burst",
+						"entries": ["The Tempestária uses Wind and Rain Burst."]
+					},
+					{
+						"name": "Electric Discharge",
+						"entries": ["The Tempestária uses Electric Discharge."]
+					},
+					{
+						"name": "Dodge",
+						"entries": ["The Tempestária takes the Dodge action."]
+					}
+					],
+					"name": "Legendary Actions",
+					"entries": [
+					"The Tempestária can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature’s turn. The Tempestária regains spent legendary actions at the start of its turn."
+					]
+				},
+				"environment": ["mountain", "arctic", "coastal"],
+				"tokenUrl": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/blob/main/Image/Tempest%C3%A1ria%20-%20Criatura%20de%20Nind%C3%A4le.png?raw=true"
 			}
 
 		]
