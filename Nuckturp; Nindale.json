@@ -16,9 +16,8 @@
         "version": "2025-06-19"
       }
     ],
-    "dateAdded": "1684893869",
-    "dateLastModified": "1729630006",
-    "_dateLastModifiedHash": "e28c18c2a1",
+    "dateAdded": "1729516930",
+    "dateLastModified": "1729516930",
     "status": "ready",
     "edition": "classic"
   },
@@ -114,7 +113,7 @@
 				{
 				"name": "Ice Spikes",
 				"entries": [
-					"{@atk rw} +5 to hit, range 30 ft., one target. {@hit 11 (2d4 + 5) piercing damage}. The Nev'uto fires a barrage of icy spikes."
+					"{@atk rw} +5 to hit, range 30 ft., one target. {@hit 11 (2d4 + 5) piercing damage}. The Nev'uto fires a barrage of icy spikes.",
 					"Ranged Weapon Attack: +5 to hit, range 30 ft., one target. Hit: 11 (2d4 + 5) piercing. The Nev'uto fires a barrage of icy spikes at its enemy."
 				]
 				},
@@ -129,14 +128,14 @@
 				"arctic",
 				"mountain"
 			],
-			"tokenUrl": "./Image/Nev'uto - Aventureiros de Nindäle.png",
+			"tokenUrl": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/blob/main/Image/Nev'uto%20-%20Aventureiros%20de%20Nind%C3%A4le.png?raw=true",
 			"fluff": {
 				"images": [
 					{
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "./Image/Nev'uto - Aventureiros de Nindäle.png"
+						"url": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/blob/main/Image/Nev'uto%20-%20Aventureiros%20de%20Nind%C3%A4le.png?raw=true"
 						}
 					}
 				]
