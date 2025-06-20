@@ -13,132 +13,134 @@
           "Gui Fabricio"
         ],
         "color": "fdfad4",
-        "version": "2025-06-19"
+        "version": "2025-06-20"
       }
     ],
-    "dateAdded": "1718857376",
-    "dateLastModified": "1718857376",
+    "dateAdded": 1718870977,
+    "dateLastModified": 1718870977,
     "status": "ready",
     "edition": "classic"
   },
   "monster": [
-		{
-			"name": "Nev'uto",
-			"source": "NIN",
-			"size": [
-				"S"
-			],
-			"type": "beast",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-				"ac": 12
-				}
-			],
-			"hp": {
-				"average": 15,
-				"formula": "3d6 + 3"
-			},
-			"speed": {
-				"walk": 5,
-				"fly": 35
-			},
-			"str": 8,
-			"dex": 16,
-			"con": 13,
-			"int": 8,
-			"wis": 10,
-			"cha": 4,
-			"skill": {
-				"acrobatics": "+5"
-			},
-			"resist": [
-				"cold"
-			],
-			"vulnerable": [
-				"fire"
-			],
-			"senses": [
-				"darkvision 60 ft.",
-				"passive Perception 10"
-			],
-			"languages": [
-				"-"
-			],
-			"cr": "1/2",
-			"xp": 100,
-			"proficiency": 2,
-			"trait": [
-				{
-				"name": "Keen Hearing",
-				"entries": [
-					"The Nev'uto has advantage on Wisdom (Perception) checks that rely on hearing."
-				]
-				},
-				{
-				"name": "Ice Hide",
-				"entries": [
-					"The Nev'uto has disadvantage on attack rolls against fire-based creatures or when in hot environments."
-				]
-				},
-				{
-				"name": "One with Ice",
-				"entries": [
-					"The Nev'uto is indistinguishable from ice or snow while motionless and outside of combat."
-				]
-				},
-				{
-				"name": "Frost Regeneration",
-				"entries": [
-					"The Nev'uto regains 1d4 hit points at the start of its turn if it has at least 1 hit point and isn't in an area of fire damage or a hot environment."
-				]
-				}
-			],
-			"action": [
-				{
-				"name": "Multiattack",
-				"entries": [
-					"The Nev'uto makes two attacks: one with its claws and one with its ice spikes."
-				]
-				},
-				{
-				"name": "Claws",
-				"entries": [
-					"{@atk mw} {@hit 7 (2d4 + 1) slashing} Melee Weapon Attack: {@hit 7 (2d4 + 1) slashing}."
-				]
-				},
-				{
-				"name": "Ice Spikes",
-				"entries": [
-					"{@atk rw} +5 to hit, range 30 ft., one target. {@hit 11 (2d4 + 5) piercing damage}. The Nev'uto fires a barrage of icy spikes."
-				]
-				},
-				{
-				"name": "War Cry (1/day)",
-				"entries": [
-					"The Nev'uto emits a chilling war cry. Up to three allied Nev'uto within 30 ft. that can hear it immediately enter a Fury state, transforming into a Fury of Nev'uto, or regain all their hit points if already in Fury form."
-				]
-				}
-			],
-			"environment": [
-				"arctic",
-				"mountain"
-			],
-			"tokenUrl": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/blob/main/Image/Nev'uto%20-%20Aventureiros%20de%20Nind%C3%A4le.png?raw=true",
-			"fluff": {
-				"images": [
-					{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/blob/main/Image/Nev'uto%20-%20Aventureiros%20de%20Nind%C3%A4le.png?raw=true"
-						}
-					}
-				]
-			}
-		}
-	]
+    {
+      "name": "Nev'uto",
+      "source": "NIN",
+      "size": [
+        "S"
+      ],
+      "type": "beast",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12
+        }
+      ],
+      "hp": {
+        "average": 15,
+        "formula": "3d6 + 3"
+      },
+      "speed": {
+        "walk": 5,
+        "fly": 35,
+        "units": "ft"
+      },
+      "str": 8,
+      "dex": 16,
+      "con": 13,
+      "int": 8,
+      "wis": 10,
+      "cha": 4,
+      "skill": {
+        "acrobatics": "+5",
+        "perception": "+2"
+      },
+      "resist": [
+        "cold"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 12"
+      ],
+      "languages": [
+        "-"
+      ],
+      "cr": "1/2",
+      "xp": 100,
+      "proficiency": 2,
+      "trait": [
+        {
+          "name": "Audição Aguçada",
+          "entries": [
+            "Esta criatura tem vantagem em testes de Sabedoria (Percepção) que dependam de audição."
+          ]
+        },
+        {
+          "name": "Pele de Gelo",
+          "entries": [
+            "O(a) {creature} tem desvantagem contra ataques ígneos ou em ambientes quentes."
+          ]
+        },
+        {
+          "name": "Um com o Gelo",
+          "entries": [
+            "A criatura é indistinguível de uma estalactite enquanto estiver parado e fora de combate."
+          ]
+        },
+        {
+          "name": "Regeneração Gélida",
+          "entries": [
+            "A criatura recupera 1d4 pontos de vida no início de seu turno caso não tenha feito nenhuma ação no turno anterior, não tenha recebido nenhum tipo de dano e esteja em contato com o gelo."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "O Nev'uto faz dois ataques: um com suas garras e um com seus espinhos de gelo."
+          ]
+        },
+        {
+          "name": "Garra",
+          "entries": [
+            "{@atk mw} {@hit 7 (2d4 + 1) slashing}"
+          ]
+        },
+        {
+          "name": "Espinhos de Gelo",
+          "entries": [
+            "{@atk rw} {@hit 11 (2d4 + 5) piercing}"
+          ]
+        },
+        {
+          "name": "Zunido de Guerra (1/dia)",
+          "entries": [
+            "Quando em seu covil, o Nev’uto emite um zunido de guerra. Até três Nev’utos aliados a até 9 metros que puderem ouvi-lo entram imediatamente em estado de Fúria, transformando-se em uma Fúria de Nev’utos, ou recuperam todos os seus pontos de vida se já estiverem em forma de Fúria."
+          ]
+        }
+      ],
+      "environment": [
+        "arctic",
+        "mountain"
+      ],
+      "tokenUrl": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/blob/main/Image/Nev%27uto%20-%20Aventureiros%20de%20Ninda%CC%88le.png?raw=true",
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://github.com/Gui-fabricio/Nindale-Nuckbrew/blob/main/Image/Nev%27uto%20-%20Aventureiros%20de%20Ninda%CC%88le.png?raw=true"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
