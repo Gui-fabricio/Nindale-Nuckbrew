@@ -12,8 +12,7 @@
         "convertedBy": [
           "Gui Fabricio"
         ],
-        "color": "fdfad4",
-        "version": "2025-06-20"
+        "version": "0.1"
       }
     ],
     "dateAdded": 1718870977,
@@ -21,6 +20,49 @@
     "status": "ready",
     "edition": "classic"
   },
+  "subclass": [
+		{
+			"name": "Patrono espírito do deserto",
+    		"source": "NIN",
+			"shortName": "EspiritoDoDeserto",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Conjurar areia|Warlock||Patrono espírito do deserto|EspiritoDoDeserto|1",
+				"Constituição do deserto|Warlock||Patrono espírito do deserto|EspiritoDoDeserto|1",
+				"Areia ao vento|Warlock||Patrono espírito do deserto|EspiritoDoDeserto|6",
+				"Rogar praga|Warlock||Patrono espírito do deserto|EspiritoDoDeserto|10",
+				"Sepultar|Warlock||Patrono espírito do deserto|EspiritoDoDeserto|14"
+			],
+			"subclassSpells": [
+				"Bane|PHB",
+				"Bestow Curse|PHB",
+				"Create Food and Water|PHB",
+				"Create or Destroy Water|PHB",
+				"Dust Devil|XGE",
+				"Fire Shield|PHB",
+				"Freedom of Movement|PHB",
+				"Gaseous Form|PHB",
+				"Insect Plague|PHB",
+				"Scorching Ray|PHB",
+				"Transmute Rock|XGE",
+				"Wall of Sand|XGE"
+			]
+		},
+		{
+			"name": "Círculo dos Dragões",
+			"source": "NIN",
+			"shortName": "CirculoDosDragoes",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Emissário do dragão|Druid||Círculo dos Dragões|CirculoDosDragoes|2",
+				"Formas do Círculo|Druid||Círculo dos Dragões|CirculoDosDragoes|2",
+				"Baforada de Dragão|Druid||Círculo dos Dragões|CirculoDosDragoes|6",
+				"Forma Dracônica|Druid||Círculo dos Dragões|CirculoDosDragoes|10"
+			]
+		}
+	],
   "monster": [
     {
       "name": "Nev'uto",
