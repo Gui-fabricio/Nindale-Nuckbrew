@@ -16,8 +16,8 @@
         "version": "2025-06-19"
       }
     ],
-    "dateAdded": "1729516930",
-    "dateLastModified": "1729516930",
+    "dateAdded": "1718857376",
+    "dateLastModified": "1718857376",
     "status": "ready",
     "edition": "classic"
   },
@@ -107,14 +107,13 @@
 				{
 				"name": "Claws",
 				"entries": [
-					"Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 1) slashing."
+					"{@atk mw} {@hit 7 (2d4 + 1) slashing} Melee Weapon Attack: {@hit 7 (2d4 + 1) slashing}."
 				]
 				},
 				{
 				"name": "Ice Spikes",
 				"entries": [
-					"{@atk rw} +5 to hit, range 30 ft., one target. {@hit 11 (2d4 + 5) piercing damage}. The Nev'uto fires a barrage of icy spikes.",
-					"Ranged Weapon Attack: +5 to hit, range 30 ft., one target. Hit: 11 (2d4 + 5) piercing. The Nev'uto fires a barrage of icy spikes at its enemy."
+					"{@atk rw} +5 to hit, range 30 ft., one target. {@hit 11 (2d4 + 5) piercing damage}. The Nev'uto fires a barrage of icy spikes."
 				]
 				},
 				{
