@@ -118,6 +118,97 @@
 			"environment": ["arctic", "mountain"],
 			"tokenUrl": ""
 			}
+			{
+				"name": "Fury of Nev'uto",
+				"source": "NIN",
+				"size": ["M"],
+				"type": "beast",
+				"alignment": ["C", "E"],
+				"ac": [
+					{
+					"ac": 13
+					}
+				],
+				"hp": {
+					"average": 48,
+					"formula": "8d6 + 16"
+				},
+				"speed": {
+					"fly": 35
+				},
+				"str": 10,
+				"dex": 16,
+				"con": 13,
+				"int": 8,
+				"wis": 10,
+				"cha": 4,
+				"resist": ["cold", "bludgeoning", "piercing", "slashing"],
+				"immune": [],
+				"conditionImmune": [
+					"grappled",
+					"frightened",
+					"paralyzed",
+					"petrified",
+					"restrained",
+					"stunned",
+					"prone"
+				],
+				"vulnerable": ["fire"],
+				"senses": ["darkvision 60 ft.", "passive Perception 10"],
+				"languages": ["-"],
+				"cr": "3",
+				"xp": 700,
+				"proficiency": 2,
+				"trait": [
+					{
+					"name": "Keen Hearing",
+					"entries": [
+						"The Fury of Nev'uto has advantage on Wisdom (Perception) checks that rely on hearing."
+					]
+					},
+					{
+					"name": "Ice Hide",
+					"entries": [
+						"The Fury of Nev'uto has disadvantage on attack rolls against fire-based creatures or when in hot environments."
+					]
+					},
+					{
+					"name": "Swarm",
+					"entries": [
+						"The Fury of Nev'uto can occupy another creature's space and vice versa. The Fury can also move through any opening large enough for a Tiny creature."
+					]
+					}
+				],
+				"action": [
+					{
+					"name": "Multiattack",
+					"entries": [
+						"The Fury of Nev'uto makes two melee attacks with its claws."
+					]
+					},
+					{
+					"name": "Claws",
+					"entries": [
+						"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 18 (6d4) slashing, or 9 (3d4) slashing if the target has half its hit points or fewer."
+					]
+					},
+					{
+					"name": "Ice Torrent (Recharge 4-6)",
+					"entries": [
+						"The Fury of Nev'uto releases a line of icy spikes 40 ft. long and 5 ft. wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 23 (6d4 + 5) piercing damage on a failed save, or half as much on a successful one."
+					]
+					},
+					{
+					"name": "War Cry (1/day)",
+					"entries": [
+						"The Fury of Nev'uto emits a chilling war cry. All allied Nev'uto within 30 ft. that can hear it regain all their hit points or transform into their Fury form if possible."
+					]
+					}
+				],
+				"environment": ["arctic", "mountain"],
+				"tokenUrl": ""
+			}
+
 		]
 
 }
