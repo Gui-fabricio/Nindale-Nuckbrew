@@ -116,8 +116,8 @@
 				}
 			],
 			"environment": ["arctic", "mountain"],
-			"tokenUrl": ""
-			}
+			"tokenUrl": "./Image/Nev'uto - Aventureiros de Nindäle.png"
+			},
 			{
 				"name": "Fury of Nev'uto",
 				"source": "NIN",
@@ -206,7 +206,7 @@
 					}
 				],
 				"environment": ["arctic", "mountain"],
-				"tokenUrl": ""
+				"tokenUrl": "./Image/Nev'uto - Aventureiros de Nindäle.png"
 			}
 
 		]
