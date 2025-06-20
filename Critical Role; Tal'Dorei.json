@@ -1,0 +1,226 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nindale",
+				"abbreviation": "NIN",
+				"full": "Nindäle Homebrew",
+				"url": "https://www.dandwiki.com/wiki/Warpriest_(5e_Class)",
+				"authors": [
+					"Nuckturp Studios"
+				],
+				"convertedBy": [
+					"Gui Fabricio"
+				],
+				"color": "fdfad4",
+				"version": "2025-06-19"
+			}
+		],
+		"dateAdded": 1684893869,
+		"dateLastModified": 1729630006,
+		"_dateLastModifiedHash": "e28c18c2a1",
+		"status": "ready",
+		"edition": "classic"
+	},
+	
+	"subclass": [
+		{
+			"name": "Aspect of Light",
+			"source": "Nindale",
+			"page": 0,
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"shortName": "Light",
+			"subclassFeatures": [
+				"Aspect of Light|Warpriest|Nindale|Light|Nindale|3",
+				"Empowered Fervor|Warpriest|Nindale|Light|Nindale|7",
+				"Improved Sacred Pulse|Warpriest|Nindale|Light|Nindale|13",
+				"Sacred Empowerment|Warpriest|Nindale|Light|Nindale|18"
+			]
+		},
+		{
+			"name": "Aspect of War",
+			"source": "Nindale",
+			"page": 0,
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"shortName": "War",
+			"subclassFeatures": [
+				"Aspect of War|Warpriest|Nindale|War|Nindale|3",
+				"Divine Weapon|Warpriest|Nindale|War|Nindale|7",
+				"Divine Armor|Warpriest|Nindale|War|Nindale|13",
+				"Divine Empowerment|Warpriest|Nindale|War|Nindale|18"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Aspect of War",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "War",
+			"subclassSource": "Nindale",
+			"level": 3,
+			"entries": [
+				"By choosing this aspect the Warpriest becomes more proficient in the front lines of the battlefield.",
+				"At 3rd level the Warpriest learns {@b Improved Sacred Weapon} increasing {@classFeature sacred weapon|warpriest|Nindale|2||its} damage by {@damage 1d6}, {@damage 2d6} at level 5, {@damage 3d6} at level 10, {@damage 4d6} at level 15 and {@damage 5d6} at level 20. It also improves it attack and damage rolls by 1, at level 10 increases this bonus by 2.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Way of War|Warpriest|Nindale|War|Nindale|3|Nindale"
+				}
+			]
+		},
+		{
+			"name": "Way of War",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "War",
+			"subclassSource": "Nindale",
+			"level": 3,
+			"entries": [
+				"Additionally, at 3rd level, combat runs through your veins and now you may now use your reaction to counter-attack with disadvantage if a melee attack misses you. You can use a {@classFeature Fervor|warpriest|Nindale|1} charge to counter-attack without disadvantage."
+			]
+		},
+		{
+			"name": "Divine Weapon",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "War",
+			"subclassSource": "Nindale",
+			"level": 7,
+			"entries": [
+				"At 7th level you learn to use a {@classFeature Fervor|warpriest|Nindale|1} charge to imbue your weapon with it as a bonus action. If the next attack with that weapon hits, it takes the damage of the weapon plus the damage of {@classFeature Fervor|warpriest|Nindale|1}. If failure the creature only takes half of the {@classFeature Fervor|warpriest|Nindale|1} damage. This ability stacks with both {@classFeature Sacred Weapon|warpriest|Nindale|2} and {@subclassFeature Aspect of War|warpriest|Nindale|War|Nindale|3||Improved Sacred Weapon}."
+			]
+		},
+		{
+			"name": "Divine Armor",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "War",
+			"subclassSource": "Nindale",
+			"level": 13,
+			"entries": [
+				"At 13th level, your AC is increased by 2 and also increases the damage from {@classFeature Sacred Armor|warpriest|Nindale|10} by 1. {@classFeature Sacred Armor|warpriest|Nindale|10||Sacred Armor's} damage is now applied also to spells that hit you as well and has no range requirements anymore."
+			]
+		},
+		{
+			"name": "Divine Empowerment",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "War",
+			"subclassSource": "Nindale",
+			"level": 18,
+			"entries": [
+				"At 18th, level using {@subclassFeature Divine Weapon|warpriest|Nindale|War|Nindale|7} no longer consumes {@classFeature Fervor|warpriest|Nindale|1} charges. in addition, using one charge of {@classFeature Fervor|warpriest|Nindale|1} as a bonus action will imbue the weapon with {@classFeature Sacred Pulse|warpriest|Nindale|6}, if the melee attack hits {@classFeature Sacred Pulse|warpriest|Nindale|6} deals damage as if {@i all} targets failed the save roll; if the attack misses the enemies in range take half of the damage. "
+			]
+		},
+		{
+			"name": "Aspect of Light",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "Light",
+			"subclassSource": "Nindale",
+			"level": 3,
+			"entries": [
+				"By choosing this aspect the Warpriest becomes more proficient in the back lines of the battlefield.",
+				"At 3rd level, the Warpriest learns {@b Charged Sacred Weapon}. This acts as a cantrip (does not affect or alters Cantrips Known and acts as an additional one). By overcharging your {@classFeature Sacred Weapon|Warpriest|Nindale|2} you are able to throw the extra energy within it. Make a ranged spell check, on a hit the target creature within 60 feet of you takes the weapon's damage and {@classFeature Sacred Weapon|Warpriest|Nindale|2} damage. After that, you can not imbue it with radiant energy until the end of the battle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Way of Light|Warpriest|Nindale|Light|Nindale|3|Nindale"
+				}
+			]
+		},
+		{
+			"name": "Way of Light",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "Light",
+			"subclassSource": "Nindale",
+			"level": 3,
+			"entries": [
+				"Additionally, at 3rd level, healing has become second nature to you and now you heal as an action without using a spell slot."
+			]
+		},
+		{
+			"name": "Empowered Fervor",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "Light",
+			"subclassSource": "Nindale",
+			"level": 7,
+			"entries": [
+				"At 7th level, {@classFeature Fervor|warpriest|Nindale|1} becomes more lethal to use. If you fail the spell attack against a foe using {@classFeature Fervor|warpriest|Nindale|1} that creature takes half of the damage from the attack instead of none."
+			]
+		},
+		{
+			"name": "Improved Sacred Pulse",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "Light",
+			"subclassSource": "Nindale",
+			"level": 13,
+			"entries": [
+				"At 13th level, {@classFeature Sacred Pulse|warpriest|Nindale|6} can now be cast on a target within 30 feet of the warpriest as the center for the spell. {@classFeature Sacred Pulse|warpriest|Nindale|6} gains a second pulse on the Warpriest's next turn healing or dealing half the damage of the first pulse."
+			]
+		},
+		{
+			"name": "Sacred Empowerment",
+			"source": "Nindale",
+			"className": "Warpriest",
+			"classSource": "Nindale",
+			"page": 0,
+			"subclassShortName": "Light",
+			"subclassSource": "Nindale",
+			"level": 18,
+			"entries": [
+				"At 18th level, {@classFeature Fervor|warpriest|Nindale|1} gains 3 additional charges; if you spend 2 charges instead of 1, {@classFeature Fervor|warpriest|Nindale|1} automatically hits and adds an extra {@damage 3d6} to the spell's damage or heal. {@classFeature Sacred Pulse|warpriest|Nindale|6} gains an additional charge, the second pulse now deals full damage."
+			]
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Warpriest",
+			"source": "Nindale",
+			"entries": [
+				{
+					"name": "Warpriest",
+					"type": "section",
+					"source": "Nindale",
+					"entries": [
+						"A fierce divine warrior capable of taking the front lines and is able to manipulate radiant energy with positive or negative elements.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a Warpriest quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Strength. Second, choose the {@background Folk Hero} background. Third, choose the {@spell sacred flame} cantrip; and {@skill Athletics}, {@skill Persuasion} and {@skill Survival} Skills."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
